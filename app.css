@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: #cacaca;
+}
+
+.tour {
+  width: 370px;
+  height: 420px;
+  background-color: white;
+  /* border: border-witdh border-style border-color */
+  border-width: 1px;
+  /* solid dashed dotted double */
+  border-style: solid;
+  border-color: black;
+  /* shorthand: Viết rút gọn */
+  border: 1px solid #000;
+}
+
+.tour-content {
+  /* padding: top right bottom left */
+  padding: 20px 20px 14px 20px;
+  /* padding: top right-left bottom */
+  padding: 20px 20px 14px;
+  /* padding: top-bottom right-left */
+  padding: 14px 20px;
+  /* padding: top-right-left-bottom */
+  padding: 20px;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+}
+
+.tour-title {
+  margin-bottom: 10px;
+}
+
+.tour-rating {
+  margin-bottom: 20px;
+}
